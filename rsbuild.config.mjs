@@ -42,8 +42,6 @@ export default defineConfig(({ env, command, envMode }) => {
       port: 3002,
       htmlFallback: 'index', // 默认情况下，当请求满足以下条件且未找到对应资源时，会回退到 index.html
       proxy: {
-
-        
         '/api': 'http://localhost:3000',
       },
     },
