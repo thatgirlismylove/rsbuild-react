@@ -1,5 +1,7 @@
 # Rsbuild Project
 
+使用 rsbuild 构建 react 项目的基本配置
+
 ## Setup
 
 Install the dependencies:
