@@ -20,9 +20,6 @@ dependencies:
   react-dom:
     specifier: ^18.3.1
     version: 18.3.1(react@18.3.1)
-  sass-embedded-darwin-arm64:
-    specifier: ^1.77.8
-    version: 1.78.0
   simple-git-hooks:
     specifier: ^2.11.1
     version: 2.11.1
@@ -42,7 +39,7 @@ devDependencies:
     version: 1.0.1-rc.3(@rsbuild/core@1.0.1-rc.3)
   '@unocss/postcss':
     specifier: ^0.62.3
-    version: 0.62.3(postcss@8.4.44)
+    version: 0.62.3(postcss@8.4.45)
   eslint:
     specifier: ^9.9.1
     version: 9.9.1
@@ -54,7 +51,7 @@ devDependencies:
     version: 3.3.3
   unocss:
     specifier: ^0.62.3
-    version: 0.62.3(postcss@8.4.44)(vite@5.4.3)
+    version: 0.62.3(postcss@8.4.45)(vite@5.4.3)
 
 packages:
 
@@ -1329,7 +1326,7 @@ packages:
       '@rsbuild/core': 1.0.1-rc.3
       deepmerge: 4.3.1
       loader-utils: 2.0.4
-      postcss: 8.4.44
+      postcss: 8.4.45
       reduce-configs: 1.0.0
       sass-embedded: 1.78.0
     dev: true
@@ -1550,7 +1547,7 @@ packages:
       sirv: 2.0.4
     dev: true
 
-  /@unocss/postcss@0.62.3(postcss@8.4.44):
+  /@unocss/postcss@0.62.3(postcss@8.4.45):
     resolution: {integrity: sha512-CwL378ef0QazduXqlaGcWgKJAzemBUxdhapWWiRqI8sXC/eXht5xK6nS1JxqADDuxosgqsGdvcCGmP8ZFrEyiA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1561,7 +1558,7 @@ packages:
       '@unocss/rule-utils': 0.62.3
       css-tree: 2.3.1
       magic-string: 0.30.11
-      postcss: 8.4.44
+      postcss: 8.4.45
       tinyglobby: 0.2.5
     transitivePeerDependencies:
       - supports-color
@@ -1809,7 +1806,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001655
-      electron-to-chromium: 1.5.13
+      electron-to-chromium: 1.5.14
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
     dev: true
@@ -2063,8 +2060,8 @@ packages:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}
     dev: true
 
-  /electron-to-chromium@1.5.13:
-    resolution: {integrity: sha512-lbBcvtIJ4J6sS4tb5TLp1b4LyfCdMkwStzXPyAgVgTRAsep4bvrAGaBOP7ZJtQMNJpSQ9SqG4brWOroNaQtm7Q==}
+  /electron-to-chromium@1.5.14:
+    resolution: {integrity: sha512-bEfPECb3fJ15eaDnu9LEJ2vPGD6W1vt7vZleSVyFhYuMIKm3vz/g9lt7IvEzgdwj58RjbPKUF2rXTCN/UW47tQ==}
     dev: true
 
   /emoji-regex@10.4.0:
@@ -2885,8 +2882,8 @@ packages:
       pathe: 1.1.2
     dev: true
 
-  /postcss@8.4.44:
-    resolution: {integrity: sha512-Aweb9unOEpQ3ezu4Q00DPvvM2ZTUitJdNKeP/+uQgr1IBIqu574IaZoURId7BKtWMREwzKa9OgzPzezWGPWFQw==}
+  /postcss@8.4.45:
+    resolution: {integrity: sha512-7KTLTdzdZZYscUc65XmjFiB73vBhBfbPztCYdUNvlaso9PrzjzcmjqBPR0lNGkcVlcO4BjiO5rK/qNz+XAen1Q==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.7
@@ -3064,6 +3061,8 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
+    dev: true
+    optional: true
 
   /sass-embedded-darwin-x64@1.78.0:
     resolution: {integrity: sha512-UMTijqE3fJ8vEaaD7GPG7G3GsHuPKOdpS8vuA2v2uwO3BPFp/rEKah66atvGqvGO+0JYApkSv0YTnnexSrkHIQ==}
@@ -3432,7 +3431,7 @@ packages:
       - supports-color
     dev: true
 
-  /unocss@0.62.3(postcss@8.4.44)(vite@5.4.3):
+  /unocss@0.62.3(postcss@8.4.45)(vite@5.4.3):
     resolution: {integrity: sha512-CLS6+JIlBobe/iPTz07pehyGDP8VqGJsiE+ZZ3Xkgib3hw76nCqAQF/4mJ8jVoV4C8KvGyVxmHaSSCFOkWmmZg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -3448,7 +3447,7 @@ packages:
       '@unocss/cli': 0.62.3
       '@unocss/core': 0.62.3
       '@unocss/extractor-arbitrary-variants': 0.62.3
-      '@unocss/postcss': 0.62.3(postcss@8.4.44)
+      '@unocss/postcss': 0.62.3(postcss@8.4.45)
       '@unocss/preset-attributify': 0.62.3
       '@unocss/preset-icons': 0.62.3
       '@unocss/preset-mini': 0.62.3
@@ -3524,7 +3523,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.21.5
-      postcss: 8.4.44
+      postcss: 8.4.45
       rollup: 4.21.2
     optionalDependencies:
       fsevents: 2.3.3
